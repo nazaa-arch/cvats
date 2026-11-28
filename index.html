@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Muhammad Naza Firmansyah – CV</title>
-<meta name="description" content="CV of Muhammad Naza Firmansyah, AI Engineer and Data Science student at Universitas Negeri Surabaya (GPA 3.80/4.00). LLM systems, RAG, AI guardrails, agents, NLP, machine learning, Python, FastAPI.">
+<meta name="description" content="CV of Muhammad Naza Firmansyah, AI Engineer and Data Science student at Universitas Negeri Surabaya (GPA 3.81/4.00). LLM systems, Hybrid RAG, AI guardrails, MCP agents, Deep Learning, NLP, Python, FastAPI.">
 <meta name="author" content="Muhammad Naza Firmansyah">
 <script type="application/ld+json">
 {
@@ -15,19 +15,19 @@
   "email": "mailto:firmannaza307@gmail.com",
   "url": "https://portofolionaza.steamcraft.online",
   "sameAs": ["https://linkedin.com/in/nazafirman", "https://github.com/nazaa-arch"],
-  "address": {"@type": "PostalAddress", "addressLocality": "Taman, Sidoarjo", "addressRegion": "East Java", "addressCountry": "ID"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Sidoarjo / Surabaya", "addressRegion": "East Java", "addressCountry": "ID"},
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universitas Negeri Surabaya"},
   "memberOf": {"@type": "ResearchOrganization", "name": "STEAM-Craft Student Research Lab", "url": "https://steamcraft.online"},
-  "knowsAbout": ["AI Engineering", "Large Language Models", "Retrieval-Augmented Generation", "AI Guardrails", "LLM Agents", "Natural Language Processing", "Machine Learning", "Python", "FastAPI", "PHP", "Laravel", "MySQL", "Data Science", "SQL", "Microsoft Excel", "Google Sheets"]
+  "knowsAbout": ["AI Engineering", "Large Language Models", "Hybrid RAG", "AI Guardrails", "MCP Agents", "Deep Learning", "Natural Language Processing", "Machine Learning", "Python", "FastAPI", "PHP", "Laravel", "MySQL", "Data Science", "SQL", "Microsoft Excel", "Google Sheets"]
 }
 </script>
 <style>
   :root {
     --bg: #ffffff;
     --text: #1a1a1a;
-    --muted: #555;
-    --rule: #d6d6d6;
-    --accent: #1f4e79;
+    --muted: #525866;
+    --rule: #d4dbe6;
+    --accent: #1049a8;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -38,37 +38,49 @@
   body {
     margin: 0; background: var(--bg); color: var(--text);
     font-family: Calibri, "Segoe UI", Arial, Helvetica, sans-serif;
-    font-size: 15px; line-height: 1.5;
+    font-size: 14.5px; line-height: 1.44;
   }
-  main { max-width: 820px; margin: 0 auto; padding: 40px 16px 56px; }
-  header h1 { margin: 0; font-size: 30px; letter-spacing: .5px; color: var(--accent); }
-  .headline { margin: 2px 0 8px; font-size: 16.5px; font-weight: 600; }
-  .contact { margin: 0; color: var(--muted); overflow-wrap: anywhere; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 18px 48px; }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: .3px; color: var(--accent); line-height: 1.15; }
+  .headline { margin: 2px 0 6px; font-size: 15px; font-weight: 700; color: var(--text); }
+  .contact { margin: 0; font-size: 13.5px; color: var(--muted); overflow-wrap: anywhere; }
   .contact a { color: inherit; }
-  .summary { margin: 14px 0 0; }
+  .summary { margin: 10px 0 0; }
   h2 {
-    font-size: 17px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent);
-    border-bottom: 1.5px solid var(--rule); padding-bottom: 3px; margin: 28px 0 10px;
+    font-size: 13.5px; text-transform: uppercase; letter-spacing: .9px; color: var(--accent);
+    border-bottom: 1.5px solid var(--rule); padding-bottom: 2px; margin: 16px 0 6px;
   }
-  h3 { font-size: 15.5px; margin: 14px 0 0; }
-  .meta { margin: 0; color: var(--muted); }
-  ul { margin: 6px 0 0; padding-left: 20px; }
-  li { margin: 3px 0; }
+  h3 { font-size: 14px; margin: 8px 0 0; line-height: 1.3; }
+  .role-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 8px; }
+  .role-row h3 { margin: 0; }
+  .role-date { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+  .meta { margin: 0; font-size: 13px; color: var(--muted); }
+  ul { margin: 3px 0 0; padding-left: 18px; }
+  li { margin: 2px 0; }
   a { color: var(--accent); overflow-wrap: anywhere; }
-  .actions { margin-top: 14px; }
+  .actions { margin-top: 12px; }
   .actions button {
-    font: inherit; font-size: 14px; padding: 6px 14px; cursor: pointer;
+    font: inherit; font-size: 13.5px; padding: 5px 14px; cursor: pointer;
     border: 1px solid var(--accent); background: transparent; color: var(--accent); border-radius: 4px;
   }
   @media print {
-    :root { --bg:#fff; --text:#000; --muted:#333; --rule:#999; --accent:#000; }
-    body { font-size: 13.5px; }
+    :root { --bg:#fff; --text:#111; --muted:#444; --rule:#b8c0cc; --accent:#1049a8; }
+    body { font-size: 9.4pt; line-height: 1.32; }
     main { padding: 0; max-width: none; }
+    header h1 { font-size: 19.5pt; }
+    .headline { font-size: 10.4pt; margin: 1px 0 4px; }
+    .contact { font-size: 8.9pt; }
+    .summary { margin: 7px 0 0; }
+    h2 { font-size: 9.8pt; margin: 10px 0 4px; padding-bottom: 1.5px; break-after: avoid; }
+    .role-row { margin-top: 7px; break-after: avoid; }
+    h3 { font-size: 9.6pt; break-after: avoid; }
+    .role-date, .meta { font-size: 8.7pt; }
+    ul { margin: 2px 0 0; padding-left: 15px; }
+    li { margin: 1.6px 0; break-inside: avoid; }
+    .page-break-before { break-before: page; }
     .actions { display: none; }
-    a { text-decoration: none; }
-    h2 { break-after: avoid; margin-top: 20px; }
-    li, h3 { break-inside: avoid; }
-    @page { margin: 14mm 14mm; }
+    a { text-decoration: none; color: #111; }
+    @page { size: A4; margin: 11mm 13mm; }
   }
 </style>
 </head>
@@ -76,121 +88,127 @@
 <main>
   <header>
     <h1>Muhammad Naza Firmansyah</h1>
-    <p class="headline">AI Engineer | LLM Systems, RAG &amp; NLP | Data Science Student</p>
+    <p class="headline">AI Engineer | LLM Systems, Hybrid RAG &amp; NLP | Data Science Student</p>
     <p class="contact">
       <a href="mailto:firmannaza307@gmail.com">firmannaza307@gmail.com</a> |
       <a href="https://linkedin.com/in/nazafirman">linkedin.com/in/nazafirman</a> |
       <a href="https://github.com/nazaa-arch">github.com/nazaa-arch</a> |
       <a href="https://portofolionaza.steamcraft.online">portofolionaza.steamcraft.online</a>
     </p>
-    <p class="contact">Taman, Sidoarjo, East Java, Indonesia | Open to remote internships</p>
-    <p class="summary">AI Engineer and Data Science student at Universitas Negeri Surabaya (GPA 3.80/4.00) and researcher in the STEAM-Craft student research lab. I build production-style LLM systems end to end: hybrid RAG with citation grounding, LLM guardrail gateways with PII redaction, tool-using SQL agents, MCP-based data agents, and document-intelligence pipelines, each shipped with an automated evaluation suite. Research background in Indonesian NLP (IndoBERTweet hybrid ensemble, accuracy above 88%), backed by Python, FastAPI, Docker, and CI/CD, plus hands-on data work from the BPS Economic Census 2026.</p>
+    <p class="contact">Sidoarjo / Surabaya, East Java, Indonesia | Open to AI / ML / Data Science Internships (Remote or Surabaya)</p>
+    <p class="summary">Data Science student at Universitas Negeri Surabaya (GPA 3.81/4.00) and researcher in the STEAM-Craft student research lab, holding 7 national certifications in AI Engineering, Deep Learning, and Data Science (Digital Talent Scholarship &amp; Diskominfo Jatim). I build and benchmark end-to-end LLM systems—hybrid RAG with citation grounding, LLM guardrail gateways with Indonesian PII redaction, MCP &amp; SQL data agents, and multimodal document pipelines—backed by Indonesian NLP research (IndoBERTweet hybrid ensemble, &gt;88% accuracy), Python, FastAPI, Docker, and field data collection for the BPS Economic Census 2026 (~1,050 businesses).</p>
     <div class="actions"><button type="button" onclick="window.print()">Download / Print PDF</button></div>
   </header>
 
   <section>
     <h2>Technical Skills</h2>
     <ul>
-      <li><strong>AI &amp; LLM Engineering:</strong> Retrieval-Augmented Generation (BM25, dense vector retrieval, Reciprocal Rank Fusion, reranking, citation grounding, abstention), LLM agents and tool use, Model Context Protocol (MCP) servers and clients, self-correction loops, AI guardrails (PII redaction, prompt-injection detection), semantic caching, LLM evaluation harnesses, structured outputs with Pydantic, Anthropic Claude API, Ollama, Google Gemini API, OpenAI API.</li>
-      <li><strong>Machine Learning &amp; NLP:</strong> IndoBERTweet and Transformers, Hybrid Stacking Ensembles, Linear SVM and subword feature engineering, LDA topic modeling, XGBoost, Decision Tree, KNN, Gaussian Process Regression, text normalization, Scikit-Learn, Pandas, NumPy.</li>
-      <li><strong>Backend, MLOps &amp; Tooling:</strong> Python, FastAPI, PHP 8, Laravel, REST and SSE streaming APIs, MySQL, SQLite (WAL), SQL, Docker, GitHub Actions CI/CD, pytest, Hypothesis property-based testing, Git.</li>
-      <li><strong>Frontend &amp; Visualization:</strong> React 19, TypeScript, Tailwind CSS, Vite, Streamlit, Plotly, Chart.js, Leaflet, Three.js, Figma (UI/UX and prototyping).</li>
-      <li><strong>Data Analysis &amp; Statistics:</strong> R, Geographically Weighted Regression (GWR), Moran's I and LISA, Digital Signal Processing (IIR/FIR, FFT), Microsoft Excel (PivotTables, XLOOKUP, INDEX-MATCH, SUMIFS, Power Query), Google Sheets (QUERY, FILTER, ARRAYFORMULA, IMPORTRANGE), used for 1+ year in business operations.</li>
-      <li><strong>Soft Skills:</strong> Research collaboration, problem solving, persuasive communication, teaching and mentoring, presentation and pitching.</li>
+      <li><strong>AI &amp; LLM Engineering:</strong> Hybrid RAG (Okapi BM25, dense retrieval, RRF, reranking, citation grounding, abstention), LLM agents &amp; tool use, Model Context Protocol (MCP), self-correction loops, AI guardrails (PII redaction, prompt-injection detection), semantic caching, eval harnesses, Pydantic v2, Claude API, Ollama, Gemini API, OpenAI API.</li>
+      <li><strong>Machine Learning, Deep Learning &amp; NLP:</strong> Deep Learning, IndoBERTweet &amp; Transformers, Hybrid Stacking Ensembles, Linear SVM, subword feature engineering, LDA, XGBoost, Decision Tree, Gaussian Process Regression, Scikit-Learn, Pandas, NumPy.</li>
+      <li><strong>Backend, Web &amp; MLOps:</strong> Python, FastAPI, REST &amp; SSE streaming, PHP 8.3, Laravel 8, MySQL, SQLite (WAL), SQL, Docker, GitHub Actions CI/CD, pytest, Hypothesis, Git, React 19, TypeScript, Tailwind CSS, Vite, Figma (UI/UX).</li>
+      <li><strong>Data Analysis &amp; Visualization:</strong> R (GWR, Moran's I, LISA), DSP (IIR/FIR, FFT), Microsoft Excel (PivotTables, XLOOKUP, SUMIFS, Power Query), Google Sheets (QUERY, ARRAYFORMULA), Power BI, Streamlit, Plotly, Chart.js, Leaflet.</li>
     </ul>
   </section>
 
   <section>
-    <h2>Work Experience</h2>
-    <h3>AI &amp; Systems Researcher (Student Research Lab)</h3>
-    <p class="meta">STEAM-Craft Research Team (Non-Commercial Academic Lab) | Surabaya, East Java | Oct 2026 – Present</p>
+    <h2>Work &amp; Research Experience</h2>
+
+    <div class="role-row">
+      <h3>AI &amp; Systems Researcher (Student Research Lab)</h3>
+      <span class="role-date">Oct 2026 – Present</span>
+    </div>
+    <p class="meta">STEAM-Craft Research Team (Non-Commercial Academic Lab) | Surabaya, East Java</p>
     <ul>
-      <li>Collaborate in a three-student multidisciplinary research lab building non-commercial academic prototypes for scientific research, coursework, and national competitions.</li>
-      <li>Develop and maintain open research prototypes at steamcraft.online, including PaperCraft AI (manuscript audit), VeriLab AI (data-integrity engine), SteamGeo Intelligence (spatial early warning), SteamSim Lab, SteamArena, and MakerCraft 3D.</li>
-      <li>Design LLM-powered research tools with pluggable model providers (Ollama, Gemini, OpenAI) that also run fully offline, validated with automated evaluation suites and GitHub Actions CI/CD.</li>
-      <li>Contribute end-to-end engineering across Figma UI/UX prototyping, FastAPI and React implementation, and automated deployment on Cloudflare and Render.</li>
+      <li>Collaborate in a student multidisciplinary research lab building non-commercial prototypes for PKM-KC 2027, coursework, and competitions at <strong>steamcraft.online</strong> (PaperCraft AI, VeriLab AI, SteamGeo Intelligence, SteamSim Lab, MakerCraft 3D, SteamArena).</li>
+      <li>Architect full-stack FastAPI/React services and pluggable offline/cloud LLM workflows (Ollama, Gemini, OpenAI), gated by automated evaluation suites and GitHub Actions CI/CD.</li>
     </ul>
-    <h3>Field Data Collection Officer (PPL), Economic Census 2026</h3>
-    <p class="meta">Statistics Indonesia (BPS) | Sidoarjo, East Java | Jun 2026 – Sep 2026</p>
+
+    <div class="role-row">
+      <h3>Field Data Collection Officer (PPL), Economic Census 2026</h3>
+      <span class="role-date">Jun 2026 – Sep 2026</span>
+    </div>
+    <p class="meta">Statistics Indonesia (BPS) | Sidoarjo, East Java</p>
     <ul>
-      <li>Surveyed approximately 1,050 businesses directly in the field as part of the national Economic Census 2026 program.</li>
-      <li>Verified and validated business identities, census block coverage, and socio-economic data for completeness and logical consistency before processing, in line with BPS methodology and deadlines.</li>
-      <li>Communicated persuasively with micro to large business owners to reduce non-response while keeping data confidential.</li>
+      <li>Surveyed ~1,050 micro-to-large businesses directly in the field as part of Indonesia's national Economic Census 2026 program.</li>
+      <li>Verified and validated business identities, census-block coverage, and socio-economic records for logical consistency and completeness under BPS methodology and strict deadlines.</li>
     </ul>
-    <h3>Academic Tutor (Mathematics &amp; Informatics, Part-time)</h3>
-    <p class="meta">INTENSIF | Surabaya | Apr 2026 – Jun 2026</p>
+
+    <div class="role-row">
+      <h3>Academic Tutor (Mathematics &amp; Informatics, Part-time)</h3>
+      <span class="role-date">Apr 2026 – Jun 2026</span>
+    </div>
+    <p class="meta">INTENSIF | Surabaya, East Java</p>
     <ul>
-      <li>Tutored mathematics and informatics for elementary to senior high school students, and coached students for the National Science Olympiad (OSN) in Informatics.</li>
-      <li>Designed and evaluated Academic Ability Test (TKA) practice modules to track student progress, simplifying algorithms and mathematical logic with adaptive teaching.</li>
+      <li>Tutored SD–SMA students in mathematics and informatics, and coached students for the National Science Olympiad (OSN) in Informatics.</li>
+      <li>Designed and evaluated Academic Ability Test (TKA) practice modules to track student progress using adaptive teaching.</li>
     </ul>
-    <h3>Operations &amp; Inventory Manager</h3>
-    <p class="meta">Toko Naza Cell (Family Retail Store) | Taman, Sidoarjo | Jan 2019 – Present</p>
+
+    <div class="role-row">
+      <h3>Operations &amp; Inventory Manager</h3>
+      <span class="role-date">Jan 2019 – Present</span>
+    </div>
+    <p class="meta">Toko Naza Cell (Family Retail Store) | Taman, Sidoarjo</p>
     <ul>
-      <li>Run a grocery retail store and digital financial services (PPOB, bank transfers, e-money, phone credit, electricity tokens) handling 50–80 transactions per day.</li>
-      <li>Manage 100+ SKUs with 3–5 distributors to keep stock availability at 100%; adopted QRIS to reduce bookkeeping discrepancies.</li>
-      <li>Record and recap daily sales, transactions, stock, and supplier purchases in Microsoft Excel and Google Sheets (lookup formulas, SUMIFS, PivotTables) to monitor cash flow and reorder needs.</li>
+      <li>Manage daily grocery retail &amp; digital financial services (50–80 transactions/day, 100+ SKUs across 3–5 distributors, QRIS adoption) and track sales, inventory, and cash flow in Excel and Google Sheets (XLOOKUP, SUMIFS, PivotTables).</li>
     </ul>
-    <h3>Independent Culinary Business Operator</h3>
-    <p class="meta">Citul Bangsawan (formerly a Citul Ningrat partner outlet) | Taman, Sidoarjo | Jun 2024 – Apr 2025</p>
+
+    <div class="role-row">
+      <h3>Independent Culinary Business Operator</h3>
+      <span class="role-date">Jun 2024 – Apr 2025</span>
+    </div>
+    <p class="meta">Citul Bangsawan (formerly Citul Ningrat partner) | Taman, Sidoarjo</p>
     <ul>
-      <li>Started as a partner outlet of Citul Ningrat; because restocking depended on suppliers in Central Java, ended the partnership and transitioned to an independent local brand, Citul Bangsawan, with my own recipes within 6 months.</li>
-      <li>Built a local in-house production system (30–50 portions per day), removing long-distance restocking and raising gross profit margin by 30–40%.</li>
-      <li>Launched 3 new flavor variants and gained 50+ new customers in the first month after launch.</li>
-      <li>Managed production costs, sales, merchandise buyer data, and online orders in Microsoft Excel and Google Sheets (Google Forms order intake, payment and delivery tracking).</li>
+      <li>Transitioned to an independent local brand with in-house production (30–50 portions/day), raising gross margin by 30–40%, acquiring 50+ customers in month one, and tracking costs/orders via Excel &amp; Google Sheets.</li>
     </ul>
   </section>
 
-  <section>
-    <h2>AI &amp; Machine Learning Projects</h2>
+  <section class="page-break-before">
+    <h2>Selected AI, LLM &amp; Systems Projects</h2>
     <ul>
-      <li><strong>JURAGAN – MCP-based AI Data Agent for Small Shops (2026)</strong> – github.com/nazaa-arch/juragan: Model Context Protocol (MCP) server exposing 10 tools, a schema resource, and report prompts (sales, best sellers, stock cover, supplier restock plans, trends, Chart.js reports, Google Sheets import), plus an agent with interchangeable providers (Claude via the Anthropic SDK tool runner, local Ollama models, and an offline planner). Two-layer read-only safety (SQL guard + SQLite authorizer on an in-memory copy), 30-task evaluation with independent SQL ground truth including 6 destructive/prompt-injection cases (local qwen2.5:7b via Ollama: 28/30 tasks, 100% tool selection, database unchanged), 26 pytest tests, and GitHub Actions CI. Python, MCP, Anthropic SDK, Ollama, SQLite.</li>
-      <li><strong>Hybrid RAG Eval (2026)</strong> – github.com/nazaa-arch/hybrid-rag-eval: Hybrid retrieval-augmented generation engine combining Okapi BM25 and dense vectors with Reciprocal Rank Fusion, a cross-signal reranker, strict inline citation grounding, and automatic abstention. On its bilingual (Indonesian/English) evaluation suite: Recall@5 100%, NDCG@5 0.885, citation faithfulness 100%, abstention accuracy 96.9%, p95 latency 93 ms. Python, FastAPI, SSE streaming, SQLite, NumPy.</li>
-      <li><strong>Sentinel LLM Gateway (2026)</strong> – github.com/nazaa-arch/sentinel-llm-gateway: OpenAI-compatible LLM proxy with Indonesian and global PII redaction plus a reversible vault, bilingual prompt-injection and toxicity detection, semantic caching, audit logs, and cost/latency metrics. F1 1.00 with zero false positives on curated suites (40 PII cases, 46 injection cases, 24 cache cases). Python, FastAPI, httpx.</li>
-      <li><strong>SQL Analyst Agent (2026)</strong> – github.com/nazaa-arch/sql-analyst-agent: Autonomous tool-using data analyst agent with a read-only SQL sandbox, error-driven self-correction loop, Pydantic v2 contracts, and Chart.js visualization specs. 24/24 execution accuracy, 6/6 self-correction recoveries, and 6/6 adversarial queries blocked on its 30-task eval harness. Python, FastAPI, SQLite.</li>
-      <li><strong>DocIntel Extract (2026)</strong> – github.com/nazaa-arch/docintel-extract: Multimodal document-intelligence pipeline turning PDFs, invoices, purchase orders, and receipts (Indonesian and English formats) into validated JSON with per-field confidence, arithmetic reconciliation, and a human-in-the-loop review queue; pluggable vision LLMs (Qwen2.5-VL, Gemini, GPT-4o-mini). Field-level F1 1.00 on 15 synthetic documents at 31 docs/sec. Python, PyMuPDF, pdfplumber, Pydantic.</li>
-      <li><strong>IndoSlang-NLP (2026)</strong> – github.com/nazaa-arch/indoslang-nlp: Open-source Python library normalizing Indonesian social-media slang, abbreviations, leetspeak, and elongation using Aho-Corasick matching over 1,000+ entries, with PII masking and a Scikit-Learn transformer. 94.2% token-level accuracy on a gold sample, ~2,300 sentences/sec, 50 passing tests.</li>
-      <li><strong>7-Class Cyberbullying Classification (2025–2026):</strong> Hybrid Stacking Ensemble of IndoBERTweet and Linear SVM on subword features (16,000+ features) with LDA (K=7) on 1,100+ Instagram and X posts; accuracy above 88%, Macro-F1 ~0.88. 2 journal manuscripts in preparation (targeting SINTA 1 / Scopus Q2).</li>
-      <li><strong>VeriLab AI (2026)</strong> – verilab.steamcraft.online: Data-integrity microservice for experiments with sensor calibration via Gaussian Process Regression (95% Bayesian bands), Monte Carlo and Sobol sensitivity analysis, anomaly detection, and SHA-256 fingerprinted compliance certificates. Python 3.12, FastAPI, Pydantic v2, Scikit-Learn, Docker.</li>
-      <li><strong>PaperCraft AI (2026)</strong> – scholar.steamcraft.online: Scientific manuscript auditor checking 7 IMRaD pillars, p-value and chi-square inconsistencies, and in-text citations against references, with SINTA 1 and Scopus Q1/Q2 rubrics. React 19, TypeScript, NLP.</li>
-      <li><strong>CuacaKita (2025):</strong> Weather classification and prediction with a Decision Tree on 1,000+ meteorological records; 80% accuracy.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Systems &amp; Data Platform Projects</h2>
-    <ul>
-      <li><strong>SMA Wachid Hasyim 2 Taman – Official Website &amp; Admissions Portal (2026)</strong> – smawh2.sch.id, ppdb.smawh2.sch.id: Rebuilt the school's legacy WordPress site into a lightweight native PHP 8.3 &amp; MySQL platform with zero downtime to active CBT exam subdomains, migrating 184 legacy articles and 336 media assets with 301 redirects, dynamic XML sitemaps, and JSON-LD SEO. Built a custom Admin CMS (13-section drag-and-drop page builder, multi-category WYSIWYG news editor, role-based access control, admissions quota tracker, Google Sheets Apps Script webhook) and redesigned the production Laravel 8 PPDB portal with mobile-first interactive tabs and 37.4% WebP image compression. PHP 8.3, MySQL, Laravel 8, JavaScript, CSS3, Google Apps Script.</li>
-      <li><strong>WAYANG – Adaptive IT/OT Deception Grid (2026)</strong> – cyber.steamcraft.online: Cyber-defense platform built as a competition entry for the Kartika Cyber Hackathon 2026, with a Modbus/TCP proxy, decoy PLC/HMI/SMTP services, MITRE ATT&amp;CK for ICS mapping, Merkle-tree evidence with STIX 2.1 export, and nftables rule generation. Python, FastAPI, React, Docker, GitHub Actions; 55 automated tests.</li>
-      <li><strong>KENTONGAN (2026, in progress):</strong> Follow-up to WAYANG for internet-free early warning between units over LoRa mesh, using hybrid Ed25519 + ML-DSA-44 (post-quantum) signatures sized for LoRa packets; currently validated in simulation.</li>
-      <li><strong>SEGARA (2026)</strong> – github.com/nazaa-arch/segara: Coral-reef thermal-stress early-warning system decoding 12-byte buoy telemetry, with per-parameter quality control, NOAA CRW-style HotSpot and Degree Heating Weeks analytics, a 5-station simulator, and Telegram alerts. Python, FastAPI, React, Leaflet, Docker.</li>
-      <li><strong>SCOR-Py (2026)</strong> – github.com/nazaa-arch/Scor-py: Python library, CLI, and Streamlit what-if dashboard computing ASCM SCOR supply-chain metrics (Perfect Order Fulfillment, OTIF, Cash-to-Cash) with golden and property-based tests. Python, Streamlit, Plotly.</li>
-      <li><strong>SteamGeo Intelligence (2026)</strong> – geo.steamcraft.online: GIS platform using GWR, Global Moran's I, and LISA for dengue outbreak preparedness across 38 districts/cities in East Java. React 19, TypeScript.</li>
-      <li><strong>STEAM-Craft (2026)</strong> – steamcraft.online: Non-commercial student research lab prototype for multidisciplinary research collaboration with 13 research projects, a 4-pillar AI assessment rubric, and multi-role management. Related prototypes: SteamSim Lab (60 FPS physics simulations with RK4), MakerCraft 3D (parametric WebGL surfaces with .OBJ export), and SteamArena (research competition arena with judge-bias correction). React 19, TypeScript, Tailwind CSS, Three.js, Cloudflare.</li>
-      <li><strong>Earlier coursework and research projects (2024–2025):</strong> Dengue spatial analysis with GWR in R (github.com/nazaa-arch/DBD-Jawa-Timur-2023-GWR); motorcycle engine fault detection with DSP (IIR/FIR filters, spectrograms); mail-order system database (CDM, ERD, 3NF); A-KERE Python personal finance app (up to 50% faster cash-flow recording).</li>
+      <li><strong>JURAGAN – MCP-Based AI Data Agent (2026)</strong> – github.com/nazaa-arch/juragan: Model Context Protocol server exposing 10 retail analytics tools, schema resources, and Chart.js reports with interchangeable providers (Claude SDK, local Ollama, offline planner) and two-layer read-only SQL safety. Eval: 28/30 tasks on local qwen2.5:7b, 100% tool selection, 6/6 destructive/injection cases blocked, 26 pytest tests &amp; CI. <em>Python, MCP, Anthropic SDK, Ollama, SQLite.</em></li>
+      <li><strong>Hybrid RAG Eval (2026)</strong> – github.com/nazaa-arch/hybrid-rag-eval: Hybrid retrieval engine combining Okapi BM25 and dense vectors via Reciprocal Rank Fusion, cross-signal reranking, strict inline citation grounding, and automatic abstention. Bilingual (ID/EN) eval: Recall@5 100%, NDCG@5 0.885, citation faithfulness 100%, abstention 96.9%, p95 latency 93 ms. <em>Python, FastAPI, SSE, SQLite, NumPy.</em></li>
+      <li><strong>Sentinel LLM Gateway (2026)</strong> – github.com/nazaa-arch/sentinel-llm-gateway: OpenAI-compatible LLM proxy with Indonesian/global PII redaction + reversible vault, bilingual prompt-injection/toxicity guard, semantic caching, and cost/latency audit logs. Eval: F1 1.00 with 0 false positives across 110 curated cases (40 PII, 46 injection, 24 cache). <em>Python, FastAPI, httpx.</em></li>
+      <li><strong>SQL Analyst Agent (2026)</strong> – github.com/nazaa-arch/sql-analyst-agent: Autonomous tool-using data analyst agent with a read-only SQL sandbox, error-driven self-correction loop, Pydantic v2 contracts, and Chart.js visualization specs. Eval: 24/24 execution accuracy, 6/6 self-correction recoveries, 6/6 adversarial queries blocked. <em>Python, FastAPI, SQLite.</em></li>
+      <li><strong>DocIntel Extract (2026)</strong> – github.com/nazaa-arch/docintel-extract: Multimodal document-intelligence pipeline turning Indonesian/English PDFs, invoices, POs, and receipts into validated JSON with per-field confidence, arithmetic reconciliation, and a HITL review queue (pluggable Qwen2.5-VL, Gemini, GPT-4o-mini). Field-level F1 1.00 at 31 docs/sec. <em>Python, PyMuPDF, pdfplumber, Pydantic.</em></li>
+      <li><strong>7-Class Indonesian Cyberbullying NLP Research (2025–2026):</strong> Hybrid Stacking Ensemble (IndoBERTweet + Linear SVM on 16,000+ subword features, LDA K=7) over 1,100+ Instagram &amp; X comments; &gt;88% accuracy, Macro-F1 ~0.88; 2 journal manuscripts in preparation (target SINTA 1 / Scopus Q2). <em>PyTorch, HuggingFace, Scikit-Learn.</em></li>
+      <li><strong>SMA Wachid Hasyim 2 Taman Web &amp; WAYANG Cyber Grid (2026)</strong> – smawh2.sch.id | cyber.steamcraft.online: Rebuilt school site in native PHP 8.3 &amp; MySQL with 13-section drag-and-drop CMS + Laravel 8 PPDB redesign (zero CBT downtime, 184 articles &amp; 336 media migrated); built WAYANG ICS/OT deception proxy for Kartika Cyber Hackathon 2026 (0/105 attacker writes reached assets, 4.42 ms median detection, 76 CI tests).</li>
+      <li><strong>More Open-Source &amp; Lab Prototypes (21 Total at portofolionaza.steamcraft.online):</strong> <em>IndoSlang-NLP</em> (94.2% acc, 50 tests), <em>VeriLab AI</em>, <em>PaperCraft AI</em>, <em>SEGARA</em>, <em>SCOR-Py</em>, <em>SteamGeo</em> (East Java GWR GIS), <em>KENTONGAN</em> (post-quantum LoRa), and <em>This Me</em> (BISINDO).</li>
     </ul>
   </section>
 
   <section>
     <h2>Education</h2>
-    <h3>Universitas Negeri Surabaya (UNESA)</h3>
-    <p class="meta">Bachelor of Data Science, GPA 3.80 / 4.00 | Surabaya, East Java | Aug 2024 – Dec 2027 (Expected)</p>
+    <div class="role-row">
+      <h3>Universitas Negeri Surabaya (UNESA) — Bachelor of Data Science (S.Si.D)</h3>
+      <span class="role-date">Aug 2024 – Mar 2028 (Expected)</span>
+    </div>
+    <p class="meta">GPA 3.81 / 4.00 | Surabaya, East Java</p>
     <ul>
-      <li>Research on fine-grained (7-class) cyberbullying detection on Instagram and X with an IndoBERTweet + Linear SVM hybrid ensemble (accuracy above 88%).</li>
-      <li>Relevant coursework projects: Geographically Weighted Regression for dengue in East Java, Digital Signal Processing, data structures and algorithms, database design, multivariate statistics (MANOVA/MANCOVA, PLS-SEM).</li>
+      <li>Coursework &amp; Activities: NLP/Deep Learning, Spatial Statistics (GWR), Digital Signal Processing, Data Warehousing, Multivariate Statistics; PDD Staff for HMP Sains Data (HIMASADA) Inagurasi Reloud 2024.</li>
     </ul>
-    <h3>SMA Wachid Hasyim 2 Taman Sidoarjo</h3>
-    <p class="meta">Senior High School, Science (MIPA) | Taman, Sidoarjo | Jul 2021 – Jun 2024</p>
+    <div class="role-row">
+      <h3>SMA Wachid Hasyim 2 Taman — Science (MIPA), Grade A</h3>
+      <span class="role-date">Jul 2021 – May 2024</span>
+    </div>
+    <p class="meta">Taman, Sidoarjo | 2&times; School Representative for OSN Informatics (PUSPRESNAS); MPK Commission A (2022–2023).</p>
+  </section>
+
+  <section>
+    <h2>Licenses &amp; Certifications</h2>
     <ul>
-      <li>School Representative for the National Science Olympiad (OSN) in Informatics (PUSPRESNAS), two consecutive periods; member of the Class Representative Council (MPK), Commission A (2022–2023).</li>
+      <li><strong>AI Engineer (LLM: dari Teori hingga Kode)</strong> — Digital Talent Scholarship, Komdigi (Nov 2026) | ID: 21212079840-364</li>
+      <li><strong>Deep Learning Specialization Track (3 Certifications)</strong> — Digital Talent Scholarship, Komdigi (Nov 2026): <em>Mastery in Deep Learning</em> [21212077840-479], <em>Intermediate Deep Learning</em> [21212075840-653], and <em>Fundamental of Deep Learning</em> [21212074840-1052].</li>
+      <li><strong>Data Science Track (2 Certifications)</strong> — Digital Talent Scholarship, Komdigi (Nov 2026): <em>Data Scientist Supervisor</em> [21211994840-3151] and <em>Associate Data Scientist (+ Python)</em> [21211993840-12221].</li>
+      <li><strong>CERDIG: Workshop Statistik Sektoral Seri IV – From Data to Information</strong> — Diskominfo Provinsi Jawa Timur (May 2025) | ID: 000.6.5.6/767.60/114.4/2025 (6 JP, Predikat Baik — EDA, AI &amp; ML on Open Data Jatim).</li>
     </ul>
   </section>
 
   <section>
     <h2>Achievements</h2>
     <ul>
-      <li>2nd Place (Silver Medal), National UI/UX Competition DIMAS TI, for "This Me", an Indonesian Sign Language (BISINDO) learning app with 30+ Figma interfaces.</li>
-      <li>Finalist, Gayatama International Competition – Food Science Communication (October 2026).</li>
-      <li>School Representative, OSN Informatics (PUSPRESNAS), two consecutive periods.</li>
+      <li><strong>2nd Place (Silver Medal)</strong>, National UI/UX Competition DIMAS TI 2025 — "This Me" BISINDO learning app (30+ Figma interfaces).</li>
+      <li><strong>Finalist</strong>, Gayatama International Competition – Food Science Communication (Oct 2026).</li>
+      <li><strong>School Representative</strong>, National Science Olympiad (OSN) in Informatics (PUSPRESNAS), two consecutive periods.</li>
     </ul>
   </section>
 </main>
